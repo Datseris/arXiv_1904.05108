@@ -1,0 +1,17 @@
+name = "MagneticBilliardsLyapunovs"
+authors = ["George Datseris", "Lukas Hupe"]
+
+[deps]
+BSON = "fbb218c0-5317-5bc6-957e-2ee96dd4b1f0"
+DelimitedFiles = "8bb1440f-4735-579b-a4ab-409b98df4dab"
+Distributed = "8ba89e20-285c-5b6f-9357-94700520ee1b"
+DrWatson = "634d3b9d-ee7a-5ddf-bec9-22491ea816e1"
+DynamicalBilliards = "4986ee89-4ee5-5cef-b6b8-e49ba721d7a5"
+Elliptic = "b305315f-e792-5b7a-8f41-49f472929428"
+FileIO = "5789e2e9-d7fb-5bc7-8068-2c6fae9b9549"
+InverseStadium = "446c6726-7659-11e9-0990-b9028ce7628c"
+JLD2 = "033835bb-8acc-5ee8-8aae-3f567f8a3819"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+Measurements = "eff96d63-e80a-5855-80a2-b1b0885c5ab7"
+PyPlot = "d330b81b-6aea-500a-939a-2ce795aea3ee"
+StatsMakie = "65254759-4cff-5aa5-8326-61ce017a8c70"

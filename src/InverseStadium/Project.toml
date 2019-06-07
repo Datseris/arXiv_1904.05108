@@ -1,0 +1,11 @@
+name = "InverseStadium"
+uuid = "446c6726-7659-11e9-0990-b9028ce7628c"
+authors = ["Lukas Hupe <lukas.hupe@t-online.de>"]
+version = "0.1.0"
+
+[deps]
+BSON = "fbb218c0-5317-5bc6-957e-2ee96dd4b1f0"
+DynamicalBilliards = "4986ee89-4ee5-5cef-b6b8-e49ba721d7a5"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+PyPlot = "d330b81b-6aea-500a-939a-2ce795aea3ee"
+StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
