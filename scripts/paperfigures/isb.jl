@@ -46,14 +46,14 @@ obstacleindices = false, ax = axbmap, color = "k", ms = 0.1, mew = 0.0)
 
 # %%
 # Plot lyapunovs:
-data = load(datadir()*"inverse_stadium/output_Tbox=100000.0_Nbox=300.bson")
+data = load(datadir("inverse_stadium/output_Tbox=100000.0_Nbox=300.bson"))
 ωs = data[:ωs]
 λs = data[:λss]
 Vc = data[:psv_vis]
 
 axλ.clear()
 axλ.semilogx(ωs, λs ./ maximum(λs), color = coolcolors[1], label = "\$\\lambda\$")
-axλ.semilogx(ωs, 1 ./ Vc ./ maximum( 1 ./ Vc), color = coolcolors[2], ls = "dashed", label = "\$1/V_C\$")
+axλ.semilogx(ωs, 1 ./ Vc ./ maximum( 1 ./ Vc), color = coolcolors[2], ls = "dashed", label = "\$1/V_\\mathrm{CH}\$")
 axλ.legend()
 axλ.set_xlabel("\$\\omega\$")
 
@@ -61,4 +61,5 @@ axλ.set_xlabel("\$\\omega\$")
 tight_layout()
 add_identifiers!()
 subplots_adjust(wspace=0.2, hspace = 0.0, left = 0.12,right = 0.97, bottom = 0.08)
-savefig(papersdir()*"figures/isb.png", transparent = true)
+savefig(papersdir("figures/isb.png"), transparent = true)
+savefig(papersdir("figures/isb.pdf"), transparent = true)

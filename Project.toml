@@ -15,3 +15,6 @@ LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 Measurements = "eff96d63-e80a-5855-80a2-b1b0885c5ab7"
 PyPlot = "d330b81b-6aea-500a-939a-2ce795aea3ee"
 StatsMakie = "65254759-4cff-5aa5-8326-61ce017a8c70"
+
+[compat]
+DrWatson = "< 0.6.0"

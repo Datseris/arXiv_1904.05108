@@ -9,4 +9,4 @@ To install the code:
 
 Everything will be installed for you and all code will be runnable :)
 
-**Disclaimer** : The code here is guaranteed to run for the package versions included in the `Manifest.toml` file. Update at your own risk!
+**Disclaimer** : The code here is guaranteed to run for the package versions included in the `Manifest.toml` file. For example, this project breaks for `DrWatson` versions greater than 0.5.3. *Update at your own risk!*
